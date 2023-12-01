@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500&family=Open+Sans&family=Poppins:wght@500&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+    background-color: white;
+    height: 55px;
+    width: 100%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+    padding: 4px;
+    padding-left: 10px;
+}
+.navbar{
+    display: flex;
+}
+.search{
+    width: 240px;
+    height: 45px;
+    border: none;
+    border-radius: 40px;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.18); */
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 12px;
+    background-color: rgb(245, 245, 245);
+}
+.col1{
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.col2{
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+    margin-left: 33.3%;
+    padding-top: 20px;
+    overflow: scroll;
+}
+.col3{
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    background-color: rgb(238, 238, 238);
+    left: 66.6%;
+}
+.box1{
+    position: absolute;
+    width: 24.25%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.box2{
+    position: absolute;
+    width: 24.25%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    left: 25.25%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.box3{
+    position: absolute;
+    width: 24.25%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    left: 50.5%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.box4{
+    position: absolute;
+    width: 24.25%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    left: 75.75%;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.longbox{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    top: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.search2{
+    margin-top: 8px;
+    position: absolute;
+    width: 430px;
+    height: 35px;
+    border: none;
+    border-radius: 40px;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.18); */
+    font-size: 15px;
+    padding: 15px;
+    margin-left: 12px;
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post1{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 720px;
+    margin-top: 310px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.imgfb{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.text{
+    margin-top: 20px;
+    margin-left: 72px;
+}
+.meta{
+    position: absolute;
+    background-color: white;
+    width: 533.3px;
+    height: 440px;
+}
+p{
+    margin-left: 10px;
+}
+.like{
+    position: absolute;
+    width: 167.76px;
+    background-color: white;
+    height: 40px;
+    top: 576px;
+    left: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.like:hover{
+    background-color: rgb(211, 211, 211);
+}
+.comment{
+    position: absolute;
+    background-color: white;
+    width: 167.76px;
+    height: 40px;
+    top: 576px;
+    left: 177.76px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.comment:hover{
+    background-color: rgb(211, 211, 211);
+}
+.share{
+    position: absolute;
+    background-color: white;
+    width: 157.76px;
+    height: 40px;
+    top: 576px;
+    left: 350.52px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
+}
+.share:hover{
+    background-color: rgb(211, 211, 211);
+}
+.longbox2{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    top: 650px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.search3{
+    position: absolute;
+    width: 440px;
+    height: 35px;
+    border: none;
+    border-radius: 40px;
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, 0.18); */
+    font-size: 15px;
+    padding: 15px;
+    top: 14px;
+    margin-left: 12px;
+    background-color: rgb(245, 245, 245);
+}
+.buttcol1{
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 60px;
+    text-align: left;
+}
+.buttcol1:hover{
+    background-color: rgb(211, 211, 211);
+}
+.frndreq{
+    width: 350px;
+    height: 100px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    margin-left: 85px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 60px;
+    text-align: left;
+}
+.frndreq:hover{
+    background-color: rgb(211, 211, 211);
+}
+.buttcol3{
+    width: 350px;
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(226, 226, 226);
+    margin-left: 85px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-left: 60px;
+    text-align: left;
+}
+.buttcol3:hover{
+    background-color: rgb(211, 211, 211);
+}
+.navcont{
+    position: absolute;
+    background-color:transparent;
+    width: 476px;
+    height: 47px;
+    left: 545px;
+}
+.navbutt{
+    width: 156px;
+    height: 47px;
+    border: none;
+    border-radius: 10px;
+}
+.navbutt:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h2{
+    color: rgb(44, 44, 44);
+    font-size: 15px;
+}
+h3{
+    font-size: 12px;
+    color: rgb(87, 87, 87);
+}
